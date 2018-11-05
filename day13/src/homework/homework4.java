@@ -27,8 +27,8 @@ public class homework4 {
 		System.out.println("请输入第二个时间（天）");
 		String day2 = scanner.nextLine();			
 		
-		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
-		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd");	
+		SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");	
 		
 		Date date1 = new Date();
 		Date date2 = new Date();
@@ -36,7 +36,7 @@ public class homework4 {
 		date2 = sdf2.parse(day2);
 		
 		long sum = Math.abs(date1.getTime()-date2.getTime());
-		long day = (long) Math.ceil(sum/(1000*3600*24));
+		long day = (long) Math.ceil(sum/(1000*3600*24.0));
 		
 /*		Calendar calendar1 = Calendar.getInstance();
 		calendar1.setTime(date1);
