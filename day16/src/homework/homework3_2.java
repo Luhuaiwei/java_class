@@ -8,7 +8,7 @@ public class homework3_2 {
 
 	public static void main(String[] args) {
 		String[] nums = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
-		String[] colors = {"方片","梅花","红桃","黑桃"};
+		String[] colors = {"黑桃","红桃","梅花","方片"};
 		
 		//任务：模拟斗地主的运行
 		//1、先创建一副牌
@@ -55,7 +55,7 @@ public class homework3_2 {
 			}
 		}
 		dizhu.addAll(spec);
-		System.out.println("自动发牌：");
+		System.out.println("荷官自动发牌：");
 		//System.out.println(spec);
 		System.out.println(dizhu);
 		System.out.println(nm1);
@@ -98,12 +98,12 @@ public class homework3_2 {
 			sort_list.add("王小");
 			sort_temp2.remove("王小");
 		}
-		sort_temp2 = mySortB(sort_temp2,sort_list,"2片方","2花梅","2桃红","2桃黑");
-		sort_temp2 = mySortB(sort_temp2,sort_list,"A片方","A花梅","A桃红","A桃黑");
-		sort_temp2 = mySortB(sort_temp2,sort_list,"K片方","K花梅","K桃红","K桃黑");
-		sort_temp2 = mySortB(sort_temp2,sort_list,"Q片方","Q花梅","Q桃红","Q桃黑");
-		sort_temp2 = mySortB(sort_temp2,sort_list,"J片方","J花梅","J桃红","J桃黑");
-		sort_temp2 = mySortB(sort_temp2,sort_list,"01片方","01花梅","01桃红","01桃黑");	
+		sort_temp2 = mySortB(sort_temp2,sort_list,"2桃黑","2桃红","2花梅","2片方");
+		sort_temp2 = mySortB(sort_temp2,sort_list,"A桃黑","A桃红","A花梅","A片方");
+		sort_temp2 = mySortB(sort_temp2,sort_list,"K桃黑","K桃红","K花梅","K片方");
+		sort_temp2 = mySortB(sort_temp2,sort_list,"Q桃黑","Q桃红","Q花梅","Q片方");
+		sort_temp2 = mySortB(sort_temp2,sort_list,"J桃黑","J桃红","J花梅","J片方");
+		sort_temp2 = mySortB(sort_temp2,sort_list,"01桃黑","01桃红","01花梅","01片方");	
 		for (int i = 0; i < sort_temp2.size(); i++) {
 			sort_list.add(sort_temp2.get(sort_temp2.size()-1-i));		
 		}	

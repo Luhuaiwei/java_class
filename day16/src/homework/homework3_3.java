@@ -12,18 +12,27 @@ public class homework3_3 {
 		String[] filelist = file.list();
 		for(String temp : filelist) {
 			System.out.println("---"+temp);
-			File file2 = new File(file,temp);
-			if(file2.isDirectory()) {
-				String[] filelist2 = file2.list();
-				for(String temp2 : filelist2) {
-					System.out.println("    |-----"+temp2);
-				}
-			}
-			
+			myFind(file,temp,1);		
 		}
 		
 		scanner.close();
 
+	}
+	private static void myFind(File file, String temp,int sum) {
+		File file2 = new File(file,temp);
+		String s = "        ";
+		int sum1 = sum+1;
+		if(file2.isDirectory()) {
+			String[] filelist2 = file2.list();
+			for(String temp2 : filelist2) {
+				for (int i = 0; i < sum; i++) {
+					System.out.print(s);
+				}
+				System.out.println("|-----"+temp2);
+				myFind(file2,temp2,sum1);
+			}
+		}
+		
 	}
 
 }
