@@ -15,6 +15,7 @@ public class homework2 {
 			System.out.print(temp);
 		}
 		
+		scanner.close();
 
 	}
 
