@@ -1,0 +1,4 @@
+Lilee,19,A
+XiaoMing,20,A
+LuhuaiWei,24,S
+ZhangFei,18,C
