@@ -10,9 +10,14 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import org.apache.log4j.Logger;
 
 public class test3 {
+	
+	private static Logger loger = Logger.getLogger(test3.class);
+	
 	public static void main(String[] args) throws IOException {
+		
 		//获取一个文本上每个字符出现的次数,将结果写在times.txt上
 		//E:\java_class\file\abc\bbb.txt
 		BufferedReader br = new BufferedReader(new FileReader("E:\\java_class\\file\\abc\\bbb.txt"));
@@ -27,6 +32,8 @@ public class test3 {
 				map.put(line, num);
 			}
 		}
+		loger.error("Error");
+		loger.debug("I am gonna to fly");
 		BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\java_class\\file\\abc\\times.txt"));
 		Set<Map.Entry<Integer,Integer>> set = new HashSet<>();
 		set = map.entrySet();

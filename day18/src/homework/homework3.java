@@ -61,7 +61,7 @@ public class homework3 {
 	}
 
 	//进行密码更改操作
-	private static void changePasswd(BufferedReader br, String username, Map<String, String> map) {
+	public static void changePasswd(BufferedReader br, String username, Map<String, String> map) {
 		System.out.println("\t输入y进行密码更改");
 		BufferedWriter bw = null;
 		try {
