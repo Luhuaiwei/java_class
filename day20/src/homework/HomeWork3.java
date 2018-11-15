@@ -13,22 +13,23 @@ public class HomeWork3 {
 	private static Logger loger = Logger.getLogger(HomeWork3.class);
 	private static ThreadLocal<String> tl = new ThreadLocal<>(); 
 	public static void main(String[] args) {
+
+		//gbk
+/*		ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ß³ï¿½1ï¿½ï¿½2ï¿½ï¿½3ï¿½ï¿½4ï¿½ï¿½
+		ï¿½ß³ï¿½1ï¿½Ä¹ï¿½ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ß³ï¿½2ï¿½Ä¹ï¿½ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½
+		ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½.........
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ä¼ï¿½ABCDï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Îªï¿½Õ¡ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ä¸ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸ï¿½Ê½ï¿½ï¿½
+		Aï¿½ï¿½1 2 3 4 1 2....
+		Bï¿½ï¿½2 3 4 1 2 3....
+		Cï¿½ï¿½3 4 1 2 3 4....
+		Dï¿½ï¿½4 1 2 3 4 1....*/
 		
-/*		ĞèÇó: ÓĞËÄ¸öÏß³Ì1¡¢2¡¢3¡¢4¡£
-		Ïß³Ì1µÄ¹¦ÄÜ¾ÍÊÇÊä³ö1£¬Ïß³Ì2µÄ¹¦ÄÜ¾ÍÊÇÊä³ö2£¬
-		ÒÔ´ËÀàÍÆ.........
-		ÏÖÔÚÓĞËÄ¸öÎÄ¼şABCD¡£³õÊ¼¶¼Îª¿Õ¡£ÏÖÒªÈÃËÄ¸öÎÄ¼ş³ÊÈçÏÂ¸ñÊ½£º
-		A£º1 2 3 4 1 2....
-		B£º2 3 4 1 2 3....
-		C£º3 4 1 2 3 4....
-		D£º4 1 2 3 4 1....*/
-		
-		//Ë¼Â·£ºÓÉ¹æÂÉ¿´³ö£¬Ïß³Ì1ËùĞ´µÄÎ»ÖÃÒªÃ´ÊÇAÎÄ¼şµÄµÚÒ»¸ö×Ö·û
-		//ÒªÃ´ÆäÇ°Ãæ±ØÈ»ÊÇ4
-		//ÁíÍâ¼¸¸öÏß³ÌÒ²Í¬Àí£¬Òò´Ë£¬±¾Ìâ½áÌâË¼Â·²½ÖèÈçÏÂ£º
-		//1¡¢¶ÁÈ¡ÎÄ¼ş£¬ÅĞ¶ÏÊ××Ö·ûÊÇ²»ÊÇ¿Õ
-		//2¡¢ÈôÊÇ¿Õ£¬Ôòµ÷ÓÃjudgeFirsr·½·¨Ğ´Èë¶ÔÓ¦Ïß³ÌµÄ×Ö·û
-		//3¡¢Èô²»ÊÇ¿Õ£¬Ôòµ÷ÓÃjudge·½·¨£¬ÒÀ¾İ¹æÂÉĞ´Èë×Ö·û
+		//Ë¼Â·ï¿½ï¿½ï¿½É¹ï¿½ï¿½É¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½1ï¿½ï¿½Ğ´ï¿½ï¿½Î»ï¿½ï¿½ÒªÃ´ï¿½ï¿½Aï¿½Ä¼ï¿½ï¿½Äµï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½
+		//ÒªÃ´ï¿½ï¿½Ç°ï¿½ï¿½ï¿½È»ï¿½ï¿½4
+		//ï¿½ï¿½ï¿½â¼¸ï¿½ï¿½ï¿½ß³ï¿½Ò²Í¬ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½
+		//1ï¿½ï¿½ï¿½ï¿½È¡ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ç²ï¿½ï¿½Ç¿ï¿½
+		//2ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½judgeFirsrï¿½ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ï¿½Ó¦ï¿½ß³Ìµï¿½ï¿½Ö·ï¿½
+		//3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½judgeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ¹ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ï¿½Ö·ï¿½
 		Thread t1 = new Thread(new Runnable() {
 
 			@Override
@@ -117,15 +118,15 @@ public class HomeWork3 {
 		try {
 			br = new BufferedReader(new FileReader(address));	
 			line = br.readLine();		
-			loger.debug("judgeFirst¶ÁÈ¡ÎÄ¼ş"+address+"ÊÇ·ñÎª¿Õ:"+(line==null));
+			loger.debug("judgeFirstï¿½ï¿½È¡ï¿½Ä¼ï¿½"+address+"ï¿½Ç·ï¿½Îªï¿½ï¿½:"+(line==null));
 			if(line!=null) {
 				String[] lines = line.split("");
 				if(front.equals(lines[lines.length-1])) {
-					loger.debug("´«Èë"+front+"µ½ÎÄ¼ş"+address);
+					loger.debug("ï¿½ï¿½ï¿½ï¿½"+front+"ï¿½ï¿½ï¿½Ä¼ï¿½"+address);
 					write(address);
 				}
 			}else {
-				loger.debug("ÍùÎÄ¼ş"+address+"ÖĞ¼ÓÈëÊ××Ö");
+				loger.debug("ï¿½ï¿½ï¿½Ä¼ï¿½"+address+"ï¿½Ğ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 				write(address);
 			}
 		} catch (FileNotFoundException e) {
@@ -149,11 +150,11 @@ public class HomeWork3 {
 		try {
 			br = new BufferedReader(new FileReader(address));	
 			line = br.readLine();		
-			loger.debug("judge¶ÁÈ¡"+address+"ÊÇ·ñÎª¿Õ:"+(line==null));
+			loger.debug("judgeï¿½ï¿½È¡"+address+"ï¿½Ç·ï¿½Îªï¿½ï¿½:"+(line==null));
 			if(line!=null) {
 				String[] lines = line.split("");
 				if(front.equals(lines[lines.length-1])) {
-					loger.debug("´«Èëµ½ÎÄ¼ş"+address);
+					loger.debug("ï¿½ï¿½ï¿½ëµ½ï¿½Ä¼ï¿½"+address);
 					write(address);
 				}
 			}
