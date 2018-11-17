@@ -19,12 +19,16 @@ public class Demo1 {
 			public void run() {
 				String name = Thread.currentThread().getName();
 				System.out.println(name);
-				Thread.currentThread().setName("Àî¹·µ°");
+				Thread.currentThread().setName("ï¿½î¹·ï¿½ï¿½");
 				name = Thread.currentThread().getName();
 				System.out.println(name);
 				
 			}});
 		thread5.start();*/
+		
+		Thread t = new Thread(){
+			
+		};
 		
 		new Thread(new Runnable() {
 
@@ -32,7 +36,7 @@ public class Demo1 {
 			public void run() {
 				String name = Thread.currentThread().getName();
 				System.out.println(name);
-				Thread.currentThread().setName("Àî¹·µ°");
+				Thread.currentThread().setName("ï¿½î¹·ï¿½ï¿½");
 				name = Thread.currentThread().getName();
 				System.out.println(name);
 				
