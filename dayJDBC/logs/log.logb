@@ -1,0 +1,42 @@
+2018-12-03 09:11:08[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 09:14:11[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 09:16:11[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 09:16:11[main:715]-[DEBUG] service.usersCURDByDruid.modifyPasswd(usersCURDByDruid.java:31)
+找不到用户名
+2018-12-03 09:16:22[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 09:16:23[main:1026]-[DEBUG] service.usersCURDByDruid.login(usersCURDByDruid.java:58)
+登录失败
+2018-12-03 09:16:23[main:1248]-[DEBUG] service.usersCURDByDruid.register(usersCURDByDruid.java:87)
+用户名重复
+2018-12-03 09:16:23[main:1256]-[DEBUG] service.usersCURDByDruid.modifyPasswd(usersCURDByDruid.java:31)
+找不到用户名
+2018-12-03 11:16:31[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:17:00[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:19:08[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:20:35[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:25:09[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:27:38[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:29:34[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:29:49[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:35:27[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:36:03[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:38:54[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:39:44[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-03 11:41:50[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited

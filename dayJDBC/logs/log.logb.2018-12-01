@@ -1,0 +1,128 @@
+2018-12-01 17:48:18[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 17:48:19[main:1234]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 17:48:19[main:1235]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：1072ms
+2018-12-01 17:48:20[main:1963]-[DEBUG] service.usersCURD.modifyPasswd(usersCURD.java:26)
+修改成功
+2018-12-01 18:07:54[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:07:55[main:930]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:07:55[main:931]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：919ms
+2018-12-01 18:07:55[main:932]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:07:55[main:962]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:07:55[main:964]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：30ms
+2018-12-01 18:07:55[main:964]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:07:55[main:996]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:07:55[main:998]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：31ms
+2018-12-01 18:07:55[main:998]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:07:55[main:1024]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:07:55[main:1024]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：25ms
+2018-12-01 18:07:55[main:1025]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:07:55[main:1074]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:07:55[main:1075]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：49ms
+2018-12-01 18:08:25[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1386]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1387]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：1377ms
+2018-12-01 18:08:27[main:1390]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1436]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1438]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：46ms
+2018-12-01 18:08:27[main:1439]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1579]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1581]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：139ms
+2018-12-01 18:08:27[main:1582]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1598]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1598]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：15ms
+2018-12-01 18:08:27[main:1599]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1629]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1629]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：29ms
+2018-12-01 18:08:27[main:1652]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1684]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1685]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：24ms
+2018-12-01 18:08:27[main:1687]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1710]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1711]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：22ms
+2018-12-01 18:08:27[main:1712]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1744]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1744]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：32ms
+2018-12-01 18:08:27[main:1745]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1825]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1828]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：79ms
+2018-12-01 18:08:27[main:1829]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1913]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1914]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：84ms
+2018-12-01 18:08:27[main:1920]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:1940]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:1940]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：19ms
+2018-12-01 18:08:27[main:1941]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:2005]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:2007]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：63ms
+2018-12-01 18:08:27[main:2008]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:2054]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:2055]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：46ms
+2018-12-01 18:08:27[main:2055]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:2089]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:2090]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：33ms
+2018-12-01 18:08:27[main:2091]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-01 18:08:27[main:2112]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-01 18:08:27[main:2113]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：21ms

@@ -1,0 +1,166 @@
+2018-11-29 14:27:33[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 14:27:34[main:690]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 14:27:34[main:690]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：683ms
+2018-11-29 14:27:34[main:730]-[DEBUG] service.Login.compare(Login.java:27)
+select * from users where usname = ? and passwd = ?
+2018-11-29 14:27:34[main:732]-[DEBUG] service.Login.compare(Login.java:30)
+登录成功
+2018-11-29 15:41:20[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 15:41:20[main:869]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 15:41:20[main:870]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：859ms
+2018-11-29 15:41:21[main:913]-[DEBUG] service.Login.compare(Login.java:27)
+select * from users where usname = ? and asswd = ?
+2018-11-29 16:55:07[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 16:55:07[main:734]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 16:55:07[main:735]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：723ms
+2018-11-29 16:55:07[main:774]-[DEBUG] service.CURD.login(CURD.java:26)
+select * from users where usname = ? and passwd = ?
+2018-11-29 16:55:08[main:922]-[DEBUG] service.CURD.login(CURD.java:29)
+登录成功
+2018-11-29 16:55:23[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 16:55:24[main:708]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 16:55:24[main:709]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：694ms
+2018-11-29 16:55:24[main:748]-[DEBUG] service.CURD.login(CURD.java:26)
+select * from users where usname = ? and passwd = ?
+2018-11-29 16:55:24[main:786]-[DEBUG] service.CURD.login(CURD.java:31)
+登录失败
+2018-11-29 17:12:06[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:12:07[main:742]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:12:07[main:743]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：733ms
+2018-11-29 17:12:07[main:788]-[DEBUG] service.CURD.login(CURD.java:33)
+登录失败
+2018-11-29 17:22:58[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:22:59[main:707]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:22:59[main:709]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：698ms
+2018-11-29 17:22:59[main:754]-[DEBUG] service.CURD.login(CURD.java:31)
+登录成功
+2018-11-29 17:31:00[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:31:00[main:800]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:31:00[main:801]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：786ms
+2018-11-29 17:31:00[main:845]-[DEBUG] service.CURD.login(CURD.java:31)
+登录成功
+2018-11-29 17:31:17[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:31:18[main:690]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:31:18[main:692]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：684ms
+2018-11-29 17:31:18[main:776]-[DEBUG] service.CURD.login(CURD.java:34)
+登录失败
+2018-11-29 17:32:38[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:32:39[main:852]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:32:39[main:853]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：843ms
+2018-11-29 17:32:39[main:903]-[DEBUG] service.CURD.login(CURD.java:34)
+登录失败
+2018-11-29 17:33:13[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:33:14[main:1154]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:33:14[main:1155]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：1143ms
+2018-11-29 17:33:14[main:1224]-[DEBUG] service.CURD.login(CURD.java:34)
+登录失败
+2018-11-29 17:37:19[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:37:20[main:854]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:37:20[main:855]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：846ms
+2018-11-29 17:37:20[main:1028]-[DEBUG] service.CURD.register(CURD.java:55)
+注册成功
+2018-11-29 17:37:48[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:37:49[main:799]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:37:49[main:800]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：791ms
+2018-11-29 17:37:49[main:942]-[DEBUG] service.CURD.register(CURD.java:62)
+用户名重复
+2018-11-29 17:42:08[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:42:08[main:905]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:42:08[main:907]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：896ms
+2018-11-29 17:42:09[main:1050]-[DEBUG] service.CURD.register(CURD.java:62)
+用户名重复
+2018-11-29 17:43:27[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:43:28[main:743]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:43:28[main:744]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：727ms
+2018-11-29 17:43:28[main:855]-[DEBUG] service.CURD.register(CURD.java:62)
+用户名重复
+2018-11-29 17:45:57[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:45:58[main:912]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:45:58[main:913]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：901ms
+2018-11-29 17:45:58[main:1078]-[DEBUG] service.CURD.register(CURD.java:64)
+用户名重复2
+2018-11-29 17:48:04[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 17:48:05[main:969]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 17:48:05[main:971]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：962ms
+2018-11-29 17:48:05[main:1101]-[DEBUG] service.CURD.register(CURD.java:64)
+用户名重复
+2018-11-29 18:00:34[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 18:00:35[main:920]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 18:00:35[main:921]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：911ms
+2018-11-29 18:00:35[main:1016]-[DEBUG] service.usersCURD.login(usersCURD.java:34)
+登录失败
+2018-11-29 18:27:58[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 18:27:59[main:721]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 18:27:59[main:722]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：714ms
+2018-11-29 18:27:59[main:859]-[DEBUG] service.usersCURD.register(usersCURD.java:76)
+注册成功
+2018-11-29 18:30:16[main:0]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 18:30:17[main:939]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 18:30:17[main:940]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：930ms
+2018-11-29 18:30:17[main:1048]-[DEBUG] service.usersCURD.modifyPasswd(usersCURD.java:29)
+找不到用户名
+2018-11-29 18:34:30[main:1]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-11-29 18:34:31[main:809]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-11-29 18:34:31[main:811]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：796ms
+2018-11-29 18:34:31[main:937]-[DEBUG] service.usersCURD.modifyPasswd(usersCURD.java:26)
+修改成功

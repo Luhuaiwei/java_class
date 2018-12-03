@@ -1,0 +1,42 @@
+2018-12-02 17:11:03[main:1]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-02 17:11:08[main:5512]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-02 17:11:08[main:5514]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：5490ms
+2018-12-02 17:11:08[main:5515]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-02 17:11:09[main:5665]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-02 17:11:09[main:5667]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：150ms
+2018-12-02 17:11:09[main:5670]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-02 17:11:09[main:5757]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-02 17:11:09[main:5760]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：86ms
+2018-12-02 17:11:09[main:5760]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-02 17:11:09[main:5831]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-02 17:11:09[main:5831]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：70ms
+2018-12-02 17:11:09[main:5832]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:43)
+开始进行数据库连接
+2018-12-02 17:11:09[main:5915]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:50)
+数据库连接成功
+2018-12-02 17:11:09[main:5915]-[DEBUG] dao.JDBCBase.getConnection(JDBCBase.java:51)
+用时：83ms
+2018-12-02 17:14:32[main:1]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-02 17:14:34[main:1931]-[DEBUG] service.usersCURDByDruid.modifyPasswd(usersCURDByDruid.java:41)
+修改成功
+2018-12-02 17:15:26[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-02 17:15:27[main:975]-[DEBUG] service.usersCURDByDruid.modifyPasswd(usersCURDByDruid.java:44)
+找不到用户名
+2018-12-02 17:33:59[main:0]-[INFO] com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:669)
+{dataSource-1} inited
+2018-12-02 17:34:00[main:973]-[DEBUG] service.usersCURDByDruid.modifyPasswd(usersCURDByDruid.java:31)
+找不到用户名
